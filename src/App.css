@@ -210,11 +210,60 @@ hr {
 	gap: 40px;
 	margin: 30px;
 }
-.formword {
-	background-color: white;
+.contact-details {
+  display:flex ;
+  /* margin: 50px 100px 50px 100px;
+	background-color: white; */
 	border-radius: 7px;
-	margin: 50px 100px 50px 100px;
+  gap: 100px;
+	margin: 20px 100px 100px 200px;
 	box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 	padding: 10px;
 	padding-bottom: 30px;
+}
+.contact-more h1{
+    margin-top: 70px;
+    text-align: center;
+}
+.contact-info{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin: 10px;
+  color: white;
+  font-size: 25px;
+}
+input[type="text"]{
+  width: 300px;
+  height: 30px;
+  border-radius: 12px;
+  border: 2px solid rgb(89, 89, 231);
+    color: #083041;
+}
+.contact-reg{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+
+}
+  
+.btn-sub{
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.btn-sub:hover{
+  cursor: pointer;
+  background-color: rgb(89, 89, 231);
+}
+.contact-name{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: rgb(89, 89, 231);
+}
+.contact-list{
+  margin-bottom: 0px;
 }
