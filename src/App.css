@@ -3,6 +3,7 @@
 	width: 750px;
 	border-radius: 12px;
 	overflow: hidden;
+  margin-top: 5rem;
 	margin-left: 17rem;
 	box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 	padding: 10px;
@@ -96,8 +97,87 @@
 	margin-left: 17rem;
 	box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 	padding: 10px;
+  margin-top: 5rem;
   line-height: 30px;
 }
-h2{
+.about-details h2{
   text-align: center;
 }
+nav{
+  background-color: rgb(49, 49, 49);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-nav{
+  display: flex;
+  align-content: center;
+}
+.navbars{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  position: absolute;
+  right: 50px;
+  margin: 30px 50px 0px 0px;
+}
+.name{
+  font-size: 35px;
+  margin: 0px 0px 0px 20px;
+  letter-spacing: 1.5px;
+}
+.nav-user{
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+.nav-user:hover{
+  cursor: pointer;
+  color: rgb(196, 193, 193);
+}
+
+.skill-details{
+  background-color: white;
+	border-radius: 7px;
+  margin: 50px 100px 50px 100px;
+	box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+	padding: 10px;
+  padding-bottom: 30px;
+}
+.skill-details h2{
+  text-align: center;
+}
+.skill-items{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px;
+}
+
+
+.icons-set{
+  width: 310px;
+  height: 90px;
+  background-color: rgb(49, 49, 49);
+  border-radius: 10px;
+}
+.icons-set:hover{
+  cursor: pointer;
+  background-color: rgb(240, 99, 99);
+}
+.image{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 20px;
+  top: 4px;
+}
+.subject{
+  font-size: 30px;
+  position: relative;
+  top: -23px;
+  left: 35px;
+}
+

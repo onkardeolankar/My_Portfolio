@@ -27,12 +27,12 @@ const Home = () => {
 								<Typical
 									loop={Infinity}
 									steps={[
-										"Onkar Deoalankar",
+										"Onkar Deolankar",
 										2000,
 										"Full Stack Developer",
-										1000,
+										2000,
 										"Mern Stack Dev",
-										1000,
+										2000,
 									]}
 								/>
 							</h1>
@@ -51,10 +51,6 @@ const Home = () => {
 								<button className="btn highlighted-btn">Resume</button>
 							</a>
 						</div>
-						
-					
-
-
         </div>
  
   )

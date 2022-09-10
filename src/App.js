@@ -3,6 +3,7 @@ import Home from './components/Home';
 import { useNavigate,Route, Routes} from "react-router-dom";
 import AboutUs from './components/AboutUs';
 import Projects from './components/Projects';
+import Skillset from './components/Skillset';
 
 function App() {
   const navigate = useNavigate();
@@ -16,13 +17,13 @@ function App() {
             <span className='name'># Onkar Deolankar</span>
         </h2>
     </div>
-    <div className='menu-link'>
+    <div className='nav-details'>
         <ul className='navbars'>
-            <li onClick={()=>{navigate('/');}} className='li'>HOME</li>
-            <li onClick={()=>{navigate('/AboutUs');}} className='li'>ABOUT</li>
-            <li onClick={()=>{navigate('/Skills');}} className='li'>SKILLS</li>
-            <li onClick={()=>{navigate('/Projects');}} className='li'>PROJECTS</li>
-            <li onClick={()=>{navigate('/contact');}} className='li'>CONTACT</li>
+            <li onClick={()=>{navigate('/');}} className='nav-user'>HOME</li>
+            <li onClick={()=>{navigate('/AboutUs');}} className='nav-user'>ABOUT</li>
+            <li onClick={()=>{navigate('/Skillset');}} className='nav-user'>SKILLS</li>
+            <li onClick={()=>{navigate('/Projects');}} className='nav-user'>PROJECTS</li>
+            <li onClick={()=>{navigate('/ContactUs');}} className='nav-user'>CONTACT</li>
         </ul>
     </div>
     </nav>
@@ -30,8 +31,9 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/AboutUs" element={<AboutUs/>} />
           <Route path="/Projects" element={<Projects/>} />
-        </Routes>
-        
+          <Route path="/Skillset" element={<Skillset/>} />
+          {/* <Route path="/ContactUs" element={<ContactUs/>} /> */}
+        </Routes>    
     </div>
     </>
   );
