@@ -4,6 +4,7 @@ import { useNavigate,Route, Routes} from "react-router-dom";
 import AboutUs from './components/AboutUs';
 import Projects from './components/Projects';
 import Skillset from './components/Skillset';
+import ContactUs from './components/ContactUs';
 
 function App() {
   const navigate = useNavigate();
