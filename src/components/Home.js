@@ -5,6 +5,7 @@ import { FaInstagramSquare,FaGithub,FaLinkedin } from "react-icons/fa";
 import Typical from "react-typical";
 
 
+
 const Home = () => {
   return (
 
@@ -37,7 +38,7 @@ const Home = () => {
 								/>
 							</h1>
 							<span className="profile-role-tagline">
-								Knack of building appliactions with fron and back end
+								Knack of building appliactions with front and back end
 								operations.
 							</span>
 						</span>
@@ -47,7 +48,7 @@ const Home = () => {
 					</div>
 
 						<div className="resume">
-							<a href="Onkar" download="Onkar Onkar.pdf">
+							<a href='G:/Portfolio/personal_portfolio/src/Onkar.pdf' download="Onkar's Resume.pdf">
 								<button className="btn highlighted-btn">Resume</button>
 							</a>
 						</div>
