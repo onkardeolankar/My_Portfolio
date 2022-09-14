@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home';
 import { useNavigate,Route, Routes} from "react-router-dom";
 import AboutUs from './components/AboutUs';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skillset from './components/Skillset';
 import ContactUs from './components/ContactUs';
@@ -22,6 +23,7 @@ function App() {
         <ul className='navbars'>
             <li onClick={()=>{navigate('/');}} className='nav-user'>HOME</li>
             <li onClick={()=>{navigate('/AboutUs');}} className='nav-user'>ABOUT</li>
+            <li onClick={()=>{navigate('/Experience');}} className='nav-user'>Experience</li>
             <li onClick={()=>{navigate('/Skillset');}} className='nav-user'>SKILLS</li>
             <li onClick={()=>{navigate('/Projects');}} className='nav-user'>PROJECTS</li>
             <li onClick={()=>{navigate('/ContactUs');}} className='nav-user'>CONTACT</li>
@@ -31,6 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/AboutUs" element={<AboutUs/>} />
+          <Route path="/Experience" element={<Experience/>} />
           <Route path="/Projects" element={<Projects/>} />
           <Route path="/Skillset" element={<Skillset/>} />
           <Route path="/ContactUs" element={<ContactUs/>} />

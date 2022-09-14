@@ -1,3 +1,6 @@
+body{
+	background-color: #f8cbc4;
+}
 .home-details {
 	background-color: white;
 	width: 750px;
@@ -9,15 +12,25 @@
 	padding: 10px;
 }
 .home-icons {
+	color: #810e05;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+
 }
-.home-icons .GitHub {
+.home-icons .GitHub:nth-child(2) {
 	margin: 20px;
+	transition: top 1s 1.2s, opacity 0.3s, color 0.3s;
+
+	
 }
+.home-icons .Twitter {
+	margin: 20px;
+	
+}
+
 .profile-details-role {
 	display: flex;
 	flex-wrap: wrap;
@@ -212,8 +225,8 @@ hr {
 }
 .contact-details {
 	display: flex;
-	/* margin: 50px 100px 50px 100px;
-	background-color: white; */
+	/* margin: 50px 100px 50px 100px; */
+	background-color: white;
 	border-radius: 7px;
 	gap: 100px;
 	margin: 20px 100px 100px 200px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillMail } from "react-icons/ai";
 import { MdSettingsPhone } from "react-icons/md";
-import { FaInstagramSquare,FaGithub,FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare,FaGithub,FaLinkedin, FaTwitter } from "react-icons/fa";
 import Typical from "react-typical";
 
 
@@ -11,9 +11,10 @@ const Home = () => {
 
         <div className="home-details">
 			<div className="home-icons">
-				<p><a href='https://www.instagram.com/cruzer_dax/?igshid=YmMyMTA2M2Y%3D' className='Instagram'><FaInstagramSquare /></a></p>
+				<p><a href='https://instagram.com/cruzer_dax/?igshid=YmMyMTA2M2Y%3D' className='Instagram'><FaInstagramSquare /></a></p>
             	<p><a href='https://github.com/onkardeolankar' className='GitHub'><FaGithub /></a></p>
-            <	p><a href='https://www.linkedin.com/in/onkar-deolankar-670840166' className='Linkedin'><FaLinkedin /></a></p>
+            	<p><a href='https://linkedin.com/in/onkar-deolankar-670840166' className='Linkedin'><FaLinkedin /></a></p>
+				<p><a href='https://twitter.com/Cruzer_Dax?t=K1Wiiy_05uzaGmE_OTJhXA&s=09' className='Twitter'><FaTwitter /></a></p>
 			</div>
             
             <div className="profile-details-role">
@@ -38,7 +39,7 @@ const Home = () => {
 								/>
 							</h1>
 							<span className="profile-role-tagline">
-								Knack of building appliactions with front and back end
+								Knack of building applications with front and back end
 								operations.
 							</span>
 						</span>
@@ -48,7 +49,7 @@ const Home = () => {
 					</div>
 
 						<div className="resume">
-							<a href='G:/Portfolio/personal_portfolio/src/Onkar.pdf' download="Onkar's Resume.pdf">
+							<a href='https://drive.google.com/file/d/1VbRQ6nrDEd1jpXy0fE9f6MPz3WFAihJM/view?usp=drivesdk' download="Onkar's Resume.pdf" target="_blank">
 								<button className="btn highlighted-btn">Resume</button>
 							</a>
 						</div>

@@ -60,6 +60,30 @@ const Projects = () => {
 							</CardContent>
 						</Card>
 					</div>
+					<div>
+						<Card sx={{ maxWidth: 350 }}>
+							<CardMedia
+								component="img"
+								height="350"
+								image="https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg"
+								alt="personal_portfolio"
+							/>
+							<CardContent>
+								<Typography gutterBottom variant="h5" component="div">
+									Portfolio
+								</Typography>
+								<Typography variant="body2" color="text.secondary">
+                                Created an app which uses useState and other react hooks features with backend involved as NodeJs.
+								</Typography>
+								<a
+									href="https://onkard-portfolio.vercel.app/"
+									className="project-link"
+								>
+									Link
+								</a>
+							</CardContent>
+						</Card>
+					</div>
 				</div>
 			</div>
 		</>
