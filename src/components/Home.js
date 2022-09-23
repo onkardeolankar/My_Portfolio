@@ -44,8 +44,8 @@ const Home = () => {
 							</span>
 						</span>
 						<div className="personal_info">
-					<p><AiFillMail/>onkardeolankar@gmail.com</p>
-            		<p><MdSettingsPhone />+91 7972281131</p></div>
+					<p className='email-id'><AiFillMail/>onkardeolankar@gmail.com</p>
+            		<p className='contact-no-mine'><MdSettingsPhone />+91 7972281131</p></div>
 					</div>
 
 						<div className="resume">

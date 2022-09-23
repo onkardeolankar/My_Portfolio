@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: #f8cbc4;
 }
 .home-details {
@@ -18,17 +18,13 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-
 }
 .home-icons .GitHub:nth-child(2) {
 	margin: 20px;
 	transition: top 1s 1.2s, opacity 0.3s, color 0.3s;
-
-	
 }
 .home-icons .Twitter {
 	margin: 20px;
-	
 }
 
 .profile-details-role {
@@ -178,7 +174,30 @@ nav {
 .icons-set:hover {
 	cursor: pointer;
 	background-color: rgb(240, 99, 99);
+	-webkit-animation: icons-set 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: icons-set 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+@-webkit-keyframes icons-set {
+	0% {
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+	}
+	100% {
+		-webkit-transform: translateZ(160px);
+		transform: translateZ(160px);
+	}
+}
+@keyframes icons-set {
+	0% {
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+	}
+	100% {
+		-webkit-transform: translateZ(160px);
+		transform: translateZ(160px);
+	}
+}
+
 .image {
 	width: 80px;
 	height: 80px;
@@ -272,7 +291,7 @@ input[type="text"] {
 	border-radius: 12px;
 	margin-top: 15px;
 	font-size: 16px;
-  border: 2px solid rgb(89, 89, 231);
+	border: 2px solid rgb(89, 89, 231);
 }
 .btn-sub:hover {
 	cursor: pointer;
@@ -287,4 +306,45 @@ input[type="text"] {
 }
 .contact-list {
 	margin-bottom: 0px;
+}
+.exp-details {
+	background-color: white;
+	width: 750px;
+	border-radius: 12px;
+	overflow: hidden;
+	margin-top: 3rem;
+	margin-left: 17rem;
+	box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+.exp-details h1 {
+	text-align: center;
+}
+.exp-company {
+	clear: both;
+}
+.exp-company .exp-exceed {
+	float: left;
+}
+.exp-company .yrs {
+	float: right;
+}
+.exp-company-name {
+	display: flex;
+	flex-direction: column;
+}
+.exp-exceed h2::first-letter {
+	color: #eb2d56;
+}
+.personal_info {
+	clear: both;
+}
+.personal_info .contact-no-mine {
+	float: right;
+	margin-left: 3rem;
+}
+.personal_info .email-id{
+	margin-left: 3rem;
+	float: left;
 }
