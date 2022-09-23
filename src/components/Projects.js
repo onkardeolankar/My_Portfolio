@@ -16,7 +16,7 @@ const Projects = () => {
 							<CardMedia
 								component="img"
 								height="350"
-								image="https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg"
+								image="https://m.media-amazon.com/images/M/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
 								alt="pokemon"
 							/>
 							<CardContent>
@@ -41,7 +41,7 @@ const Projects = () => {
 							<CardMedia
 								component="img"
 								height="350"
-								image="https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/chris-ried-512801-unsplash.jpg"
+								image="https://media.istockphoto.com/photos/popcorn-and-clapperboard-picture-id1191001701?b=1&k=20&m=1191001701&s=612x612&w=0&h=cL3uI5lZY3rjg7nb-58Y92qHDbxTTtYfsSchO74O9m8="
 								alt="movie_app"
 							/>
 							<CardContent>
@@ -76,7 +76,7 @@ const Projects = () => {
                                 Created an app which uses useState and other react hooks features with backend involved as NodeJs.
 								</Typography>
 								<a
-									href="https://onkard-portfolio.vercel.app/"
+									href="https://myportfolio-onkar.vercel.app/"
 									className="project-link"
 								>
 									Link
