@@ -2,9 +2,9 @@ import React from "react";
 
 const Experience = () => {
 	return (
-		<div className="exp-details">
-			<h1>Experience</h1>
-			<hr />
+		<div id="experience">
+		<div className="title">EXPERIENCE</div>
+			<hr className="hr" />
 			<div className="exp-company">
 				<div className="exp-exceed">
 					<h2>XCEEDANCE |</h2>
@@ -50,7 +50,7 @@ const Experience = () => {
 					how to check the reading, how the graph varies and QOS ,etc. <br />
 				</p>
 			</div>
-		</div>
+			</div>
 	);
 };
 

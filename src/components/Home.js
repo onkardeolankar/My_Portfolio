@@ -1,61 +1,77 @@
-import React from 'react';
-import { AiFillMail } from "react-icons/ai";
-import { MdSettingsPhone } from "react-icons/md";
-import { FaInstagramSquare,FaGithub,FaLinkedin, FaTwitter } from "react-icons/fa";
-import Typical from "react-typical";
+import React from "react";
+import image from "../icons/image-1.jpg";
+import "./Home.css";
+import Typewriter from "typewriter-effect";
+import { useNavigate } from "react-router-dom";
+import { BiShow } from "react-icons/bi";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 
-
-
-const Home = () => {
+function Home() {
+  const navigate = useNavigate();
   return (
-
-        <div className="home-details">
-			<div className="home-icons">
-				<p><a href='https://instagram.com/cruzer_dax/?igshid=YmMyMTA2M2Y%3D' className='Instagram'><FaInstagramSquare /></a></p>
-            	<p><a href='https://github.com/onkardeolankar' className='GitHub'><FaGithub /></a></p>
-            	<p><a href='https://linkedin.com/in/onkar-deolankar-670840166' className='Linkedin'><FaLinkedin /></a></p>
-				<p><a href='https://twitter.com/Cruzer_Dax?t=K1Wiiy_05uzaGmE_OTJhXA&s=09' className='Twitter'><FaTwitter /></a></p>
-			</div>
-            
-            <div className="profile-details-role">
-			<div className="profile-picture">
-					<div className="profile-picture-background"></div>
-				</div>
-						<span className="primary-text">
-							{" "}
-							<h2>Hey I'm</h2>
-							<h1>
-								{" "}
-								<Typical
-									loop={Infinity}
-									steps={[
-										"Onkar Deolankar",
-										2000,
-										"Full Stack Developer",
-										2000,
-										"Mern Stack Dev",
-										2000,
-									]}
-								/>
-							</h1>
-							<span className="profile-role-tagline">
-								Knack of building applications with front and back end
-								operations.
-							</span>
-						</span>
-						<div className="personal_info">
-					<p className='email-id'><AiFillMail/>onkardeolankar@gmail.com</p>
-            		<p className='contact-no-mine'><MdSettingsPhone />+91 7972281131</p></div>
-					</div>
-
-						<div className="resume">
-							<a href='https://drive.google.com/file/d/1VbRQ6nrDEd1jpXy0fE9f6MPz3WFAihJM/view?usp=drivesdk' download="Onkar's Resume.pdf" target="_blank">
-								<button className="btn highlighted-btn">Resume</button>
-							</a>
-						</div>
+    <div className="home-margin-items" id="home">
+      <div className="home-flex">
+        <div>
+          <label className="name-tag">
+            <span className="hi-text">Hi there, I'm</span>
+            <br />
+            <span className="highlight">Onkar</span> Deolankar.
+          </label>
+          <br />
+          <div className="typewriter">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .deleteChars(11)
+                  .typeString(
+                    'I am <span style="color:red">Web Developer.</span>'
+                  )
+                  .pauseFor(300)
+                  .deleteChars(14)
+                  .typeString(
+                    '<span style="color:red">Full Stack Developer.</span>'
+                  )
+                  .pauseFor(300)
+                  .start();
+              }}
+            />
+          </div>
+          <label className="intro">
+            This is my official portfolio website to showcase my all work
+            related to
+            <br /> Full Stack Web Development{" "}
+          </label>
+          <br />
+          <a target="_blank" href="https://drive.google.com/file/d/1VbRQ6nrDEd1jpXy0fE9f6MPz3WFAihJM/view?usp=share_link" className="cv">
+            <BiShow className="BiShow" />
+            See My Resume.
+          </a>
+          <br />
+          <div className="icons">
+            <a
+              target="_blank"
+              href="https://linkedin.com/in/onkar-deolankar-670840166"
+              className="linkedin-icon"
+            >
+              <SiLinkedin className="SiLinkedin" />
+              Linkedin
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/onkardeolankar"
+              className="github-icon"
+            >
+              <SiGithub className="SiGithub" />
+              Github
+            </a>
+          </div>
         </div>
- 
-  )
+      </div>
+      <div className="animation">
+        <img src={image} className="home-image" alt="laptop-guy" />
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
