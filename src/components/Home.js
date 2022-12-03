@@ -67,8 +67,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="animation">
-        <img src={image} className="home-image" alt="laptop-guy" />
+      <div className="profile-picture">
+        <div className="profile-picture-background" alt="laptop-guy"></div>
       </div>
     </div>
   );

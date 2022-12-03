@@ -1,47 +1,31 @@
 import React from "react";
 
-const Experience = () => {
+function Experience (){
 	return (
+		<div className="about-margin-item" id="about">
+		<div className="title">Experience</div>
+		<hr className="hr" />
 		<div className="exp-details">
-			<h1>Experience</h1>
-			<hr />
-			<div className="exp-company">
-				<div className="exp-exceed">
-					<h2>XCEEDANCE |</h2>
-				</div>
-				<div className="yrs">
-					<p>1 yrs</p>
-				</div>
-			</div>
-			<div className="exp-company-name">
-				<h4>
-					<sub> OnBase Developer</sub>{" "}
-				</h4>
-			</div>
-			<div className="exp-role">
-				<p>
+				<label className="exp-company">
+					<h2>XCEEDANCE | 1 yrs</h2>
+				</label><br />
+			<label className="exp-company-name">
+				OnBase Developer
+			</label>
+			<p className="exp-role">
 					• To configure acc creation of users, Mailbox Importer, Unity
 					Forms,Integrating with DuckCreek. <br />• Managing the userrespective
 					groups to deliverthe correct output. <br />
 					• Creating various life cycle based on clientrequirements. <br />
-				</p>
-			</div>
+				</p><br /><br />
 
-			<div className="exp-company">
-				<div className="exp-exceed">
-					<h2>Tata Communications |</h2>
-				</div>
-				<div className="yrs">
-					<p>1.9 yrs</p>
-				</div>
-			</div>
-			<div className="exp-company-name">
-				<h4>
-					<sub> Network Engineer</sub>{" "}
-				</h4>
-			</div>
-			<div className="exp-role">
-				<p>
+			<label className="exp-company">
+					<h2>Tata Communications | 1.9 yrs</h2>
+				</label><br />
+			<label className="exp-company-name">
+					Network Engineer
+			</label>
+			<p className="exp-role">
 					• To handle essential tools such as CAPM portal, OData, ISC sheet and
 					Postman. <br />
           • To configure the newly links and monitor Utilization forthe

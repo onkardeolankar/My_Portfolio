@@ -1,41 +1,80 @@
-.exp-details {
-	background-color: white;
-	width: 750px;
-	border-radius: 12px;
-	overflow: hidden;
-	margin-top: 3rem;
-	margin-left: 17rem;
-	box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
-	padding: 10px;
-	padding-bottom: 30px;
+.exp-details{
+    height: 16%;
+    margin: 100px;
+    padding: 50px;
 }
-.exp-details h1 {
-	text-align: center;
+hr{
+    width: 12%;
+    margin-bottom: 50px;
 }
-.exp-company {
-	clear: both;
+hr.hr{
+    border: 1px solid gold;
+    border-radius: 5px;
 }
-.exp-company .exp-exceed {
-	float: left;
+.exp-company{
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    overflow: hidden;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
-.exp-company .yrs {
-	float: right;
+.exp-company-name{
+    font-size: 27px;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
 }
-.exp-company-name {
-	display: flex;
-	flex-direction: column;
+
+.AiOutlineForward{
+    color: #41c9ff;  
+    font-size: larger;
 }
-.exp-exceed h2::first-letter {
-	color: #eb2d56;
+.information{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 550px;
+    padding: 15px;
+    border-radius: 10px;
 }
-.personal_info {
-	clear: both;
+
+
+
+@media(max-Width:1000px){
+    .about-margin-item{
+        margin: 10px;
+    }
 }
-.personal_info .contact-no-mine {
-	float: right;
-	margin-left: 3rem;
+@media(max-Width:1000px){
+    .exp-company{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .exp-company-name{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+	.exp-role{
+        font-size: 15px;
+    }
+
 }
-.personal_info .email-id{
-	margin-left: 3rem;
-	float: left;
+@media(max-Width:500px){
+    .exp-company{
+        font-size: 1.5rem;
+    }
+    .exp-company-name{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+	.exp-role{
+        font-size: 12px;
+    }
+
 }
