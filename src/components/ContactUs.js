@@ -42,7 +42,7 @@ const ContactUs = (props) => {
 				<hr className="hr" />
 				<form ref={form} onSubmit={sendEmail}>
 					<div className="contact-flex">
-						<div>
+						<div className="alexa">
 							<input
 								type="text"
 								name="name"
