@@ -6,7 +6,7 @@
     right: 280px;
     border: 15px solid #41c9ff;
 } */
-@media(max-width:1400px){
+/* @media(max-width:1400px){
     .profile-picture{
         right: 220px;
         height: 250px;
@@ -21,7 +21,7 @@
     .profile-picture{
        margin-left: -10rem;
     }
-}
+} */
 @media(max-Width:1000px){
     .home-flex{
         margin-left: -110px;
@@ -113,7 +113,7 @@
 .intro{
     margin-bottom: 20px;
 }
-.profile-picture {
+/* .profile-picture {
     margin-left: 10rem;
 	display: flex;
 	box-shadow: 0 1px 0px 0px brown;
@@ -134,4 +134,4 @@
 .profile-picture-background:hover {
 	transform: scale(1.07);
 	transition: 1s ease-out;
-}
+} */
