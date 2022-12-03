@@ -1,7 +1,6 @@
 .exp-details {
-	background-color: rgb(230, 218, 218);
+	background-color: white;
 	width: 750px;
-    position: absolute;
 	border-radius: 12px;
 	overflow: hidden;
 	margin-top: 3rem;
@@ -28,4 +27,15 @@
 }
 .exp-exceed h2::first-letter {
 	color: #eb2d56;
+}
+.personal_info {
+	clear: both;
+}
+.personal_info .contact-no-mine {
+	float: right;
+	margin-left: 3rem;
+}
+.personal_info .email-id{
+	margin-left: 3rem;
+	float: left;
 }

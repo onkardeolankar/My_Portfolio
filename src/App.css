@@ -1,3 +1,6 @@
+body {
+	background-color: #f8cbc4;
+}
 .flexx{
 	display:flex ;
 	flex-wrap: wrap;
@@ -25,4 +28,17 @@
 	transition: all 1s ease;
   }
   
-  
+/* -------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
