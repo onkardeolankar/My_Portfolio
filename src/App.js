@@ -19,8 +19,8 @@ function App() {
         <div>
           <Home />
           <About />
-          <Experience />
           <Skills />
+          <Experience />
           <Projects />
           <Contact />
         </div>
