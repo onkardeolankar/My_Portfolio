@@ -14,9 +14,9 @@ function Experience (){
 			</label>
 			<p className="exp-role">
 					• To configure acc creation of users, Mailbox Importer, Unity
-					Forms,Integrating with DuckCreek. <br />• Managing the userrespective
-					groups to deliverthe correct output. <br />
-					• Creating various life cycle based on clientrequirements. <br />
+					Forms,Integrating with DuckCreek. <br />• Managing the user respective
+					groups to deliver the correct output. <br />
+					• Creating various life cycle based on client requirements. <br />
 				</p><br /><br />
 
 			<label className="exp-company">
