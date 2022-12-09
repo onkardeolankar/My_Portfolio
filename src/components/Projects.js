@@ -143,24 +143,30 @@ function Projects() {
             </label>
           </div>
         </div>
-        <br />
-        <br />
-        <div className="credentials">
+        <div className="cards">
+          <img
+            src="https://t4.ftcdn.net/jpg/03/03/55/79/360_F_303557985_6x9QfRtIBJXZpxCB186mfRCkanrtHskE.jpg"
+            className="project-dp"
+            alt="e-comm"
+          />
+          <div className="project-all">
             <label className="project-title">Credentials</label>
-            <br />      
+            <br />
             <p className="project-info">
             Email : onkar@gmail.com
               <br />
-            Password : Pass@12345
+            Password: Pass@12345
+              
             </p>
             <br />
             <label className="project-tech">
               <span className="project-tech1"> COMMON :</span>
               <span className="project-tech2">
-                &nbsp;For all the Projects of MERN STACK.
+                &nbsp;For all the MERN STACK Projects.
               </span>
             </label>
           </div>
+        </div>
       </div>
     </div>
   );
