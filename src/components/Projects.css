@@ -82,3 +82,10 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+.credentials{
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

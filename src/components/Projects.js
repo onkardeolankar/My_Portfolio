@@ -83,10 +83,10 @@ function Projects() {
             <label className="project-title">Gmail clone</label>
             <br />
             <label className="project-flex-links">
-              <a target="_blank" href="hhttps://github.com/onkardeolankar/gmail-clone-fend" className="project-links">
+              <a target="_blank" href="https://github.com/onkardeolankar/gmail-clone-fend" className="project-links">
                 Github FE <SiGithub />
               </a>
-              <a target="_blank" href="https://incandescent-tiramisu-9886d5.netlify.app" className="project-links">
+              <a target="_blank" href="https://gmail-clone-fend.vercel.app/signin" className="project-links">
                 View site <FaExternalLinkAlt />
               </a>
               <a target="_blank" href="https://github.com/onkardeolankar/gmail-clone-bend" className="project-links">
@@ -121,7 +121,7 @@ function Projects() {
               <a target="_blank" href="https://github.com/onkardeolankar/e-comm-frontend" className="project-links">
                 Github FE <SiGithub />
               </a>
-              <a target="_blank" href="https://glowing-gumption-82f38f.netlify.app" className="project-links">
+              <a target="_blank" href="https://e-comm-fend.vercel.app/login" className="project-links">
                 View site <FaExternalLinkAlt />
               </a>
               <a target="_blank" href="https://github.com/onkardeolankar/e-comm-backend" className="project-links">
@@ -143,6 +143,22 @@ function Projects() {
             </label>
           </div>
         </div>
+        <div className="credentials">
+            <label className="project-title">Credentials</label>
+            <br />      
+            <p className="project-info">
+            Email : onkar@gmail.com
+              <br />
+            Password : Pass@12345
+            </p>
+            <br />
+            <label className="project-tech">
+              <span className="project-tech1"> COMMON :</span>
+              <span className="project-tech2">
+                &nbsp;For all the Projects of MERN STACK.
+              </span>
+            </label>
+          </div>
       </div>
     </div>
   );
