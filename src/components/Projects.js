@@ -143,6 +143,8 @@ function Projects() {
             </label>
           </div>
         </div>
+        <br />
+        <br />
         <div className="credentials">
             <label className="project-title">Credentials</label>
             <br />      
