@@ -8,6 +8,10 @@ function Projects() {
     <div className="projects-margin-item" id="projects">
       <div className="title">PROJECT</div>
       <hr className="hr" />
+     <div className="credentials">
+              Credentials: Admin : onkar@gmail.com | Password: Pass@12345 <br />
+                           User : user@gmail.com | Password :Pass@12345
+                   </div>       
       <div className="project-flexx">
         <div className="cards">
           <img
@@ -139,30 +143,6 @@ function Projects() {
               <span className="project-tech1">TECH USED:</span>
               <span className="project-tech2">
                 &nbsp;React, Node, Express, MongoDB.
-              </span>
-            </label>
-          </div>
-        </div>
-        <div className="cards">
-          <img
-            src="https://t4.ftcdn.net/jpg/03/03/55/79/360_F_303557985_6x9QfRtIBJXZpxCB186mfRCkanrtHskE.jpg"
-            className="project-dp"
-            alt="e-comm"
-          />
-          <div className="project-all">
-            <label className="project-title">Credentials</label>
-            <br />
-            <p className="project-info">
-            Email : onkar@gmail.com
-              <br />
-            Password: Pass@12345
-              
-            </p>
-            <br />
-            <label className="project-tech">
-              <span className="project-tech1"> COMMON :</span>
-              <span className="project-tech2">
-                &nbsp;For all the MERN STACK Projects.
               </span>
             </label>
           </div>
