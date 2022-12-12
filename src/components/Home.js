@@ -42,7 +42,7 @@ function Home() {
             <br /> Full Stack Web Development{" "}
           </label>
           <br />
-          <a target="_blank" href="https://drive.google.com/file/d/1Q9yUR8PfEl_zj9FqPH62S0R1uCor0LOC/view?usp=share_link" className="cv">
+          <a target="_blank" href="https://drive.google.com/file/d/1L-iRhk7JM-1sz0WgmFk-79wG_vp90Bnm/view?usp=share_link" className="cv">
             <BiShow className="BiShow" />
             See My Resume.
           </a>
